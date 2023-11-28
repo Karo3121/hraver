@@ -1,0 +1,477 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+.header{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image:url(./png/png1.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+
+
+
+
+}
+
+
+.timeDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    bottom: 200px;
+}
+
+
+
+.timeH1{
+    font-family: 'MontserratARM',Arial,sans-serif;
+    text-align: center;
+    color:white;
+    font-size: 45px;
+    margin: 10px;
+
+}
+
+
+.timeH3{
+    font-family: 'MontserratARM',Arial,sans-serif;
+    color:white;
+    font-size: 25px;
+    margin: 10px;
+
+}
+
+
+.time{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-top: 70px;
+}
+
+.time li{
+    margin: 10px;
+    color: white;
+    text-align: center;
+    list-style: none;
+}
+
+.line{
+    width: 1px;
+    height: 90px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.time h3{
+    font-size: 15px;
+}
+
+.container1{
+    display: flex;
+    flex-direction: column;
+    font-family: 'MontserratARM',Arial,sans-serif;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+    padding-bottom: 40px;
+    font-size: 20px;
+
+}
+.container1-text{
+    text-align: center;
+    font-family: 'MontserratARM',Arial,sans-serif;
+    font-size: 24px;
+}
+
+.Amsativ_1{
+    width: 450px;
+    height: 90px;
+    margin-top: 50px;
+}
+
+
+
+
+.justLine{
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.justLineDiv{
+    background: linear-gradient(90deg, rgba(255,255,255,0.3309698879551821) 0%, rgba(0,0,0,0.4791491596638656) 51%, rgba(255,255,255,0.3925945378151261) 100%);
+    width: 600px;
+    height: 2px;
+}
+.mapBigDiv{
+    font-family: 'MontserratARM',Arial,sans-serif;
+
+}
+
+
+.church{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 60px;
+
+}
+.church h1{
+    font-family: 'MontserratARM',Arial,sans-serif;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+
+.churchMap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+
+
+
+
+.restaurant{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 200px;
+
+}
+.restaurant h1{
+    font-family: 'MontserratARM',Arial,sans-serif;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+
+.restaurantMap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+
+
+
+.mailDiv{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'MontserratARM',Arial,sans-serif;
+    font-size: 18px;
+    margin-top: 300px;
+    margin-bottom: 200px;
+
+
+
+}
+
+
+.mailSmallDiv{
+    width: 450px;
+}
+
+.mailSmallDiv > *{
+    margin-top: 25px;
+    margin-bottom: 25px ;
+
+}
+.mailSmallDiv p{
+    font-size: 24px;
+    
+}
+.radioDiv p{
+    margin-left: 20px;
+}
+
+
+.radioDiv{
+    display: flex;
+}
+
+.inpRadio[type='radio'] {
+    background-color: #d1d3d1;
+    color: #d1d3d1;
+    accent-color: #d9d9d9; 
+
+
+
+}
+
+.inpRadio[type='radio']:checked {
+    background-color: #000000;
+    color: #000000;
+    accent-color: #000000; 
+
+
+}
+
+.inputSend{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inp{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 15px;
+    border: none;
+    border-bottom: 1px solid black;
+    
+}
+
+.inp:focus{
+    border: 0;
+
+}
+
+.inp::placeholder{
+    font-size: 25px;
+    margin-bottom: 8px;
+
+}
+
+
+.btn{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 470px) {
+    
+    .header{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-image:url(./png/minWidth.png);
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+
+
+
+
+    }
+    .time {
+        font-size: 20px;
+    }
+    .Amsativ_1{
+        width: 300px;
+        height: 60px;
+        margin-top: 30px;
+    }
+}
+
+
+
+
+.planTxt{
+    font-size: 50px;
+    font-family: 'MontserratARM',Arial,sans-serif;
+    margin-top: 30px;
+
+}
+.plansDiv{
+    display: flex;
+    justify-content: center;
+    width: 500px;
+}
+
+.planss{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 90px;
+    
+
+
+}
+
+
+
+.planss li{
+    display: flex;
+    list-style: none;
+
+
+}
+
+.planssTxtDiv{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.planss li h1{
+    font-size: 30px;
+
+}
+
+.planssLine{
+    height: 70px;
+    width: 2px;
+    margin-left: 125px ;
+    background-color: #DCC080;
+}
+
+.time2{
+    display:none;
+}
+
+
+
+@media screen and (max-width: 750px) {
+    .time1{
+        display:none;
+
+    }
+
+
+    .time2{
+        display: inline;
+    }
+
+    .planss{
+        width: 500px;
+    }
+    .planssLine{
+        margin-left: 50px;
+    }
+
+    .justLineDiv{
+        background: linear-gradient(90deg, rgba(255,255,255,0.3309698879551821) 0%, rgba(0,0,0,0.4791491596638656) 51%, rgba(255,255,255,0.3925945378151261) 100%);
+        width: 350px;
+        height: 2px;
+    }
+    .church img {
+        width: 500px;
+        height: 350px;
+    }
+    .restaurant img {
+        width: 500px;
+        height: 350px;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 400px){
+    .timeH1{
+        font-size: 29px;
+    }
+    .timeH3{
+        font-size: 20px;
+    }
+    .planTxt{
+        font-size: 29px;
+    }
+    .plansDiv{
+        width: 300px;
+    }
+    .planssLine{
+        margin-left: 35px;
+    }
+    .container1-text{
+        font-size: 20px;
+    }
+    .church h1{
+        font-size: 15px;
+    }
+    .restaurant h1{
+        font-size: 15px;
+
+    }
+    .church img {
+        width: 250px;
+        height: 200px;
+    }
+    .restaurant img {
+        width: 250px;
+        height: 200px;
+    }
+    h1{
+        font-size: 15px;
+    }
+    p{
+        font-size: 13px;
+    }
+    .churchMap{
+        width: 100%;
+        flex-direction: column;
+    }
+    .restaurantMap{
+        width: 100%;
+        flex-direction: column;
+    }
+    .map {
+        width: 100%;
+    }
+    .planss li{
+        padding-left: 70px;
+    }
+    
+    .planss li h1 {
+        font-size: 15px;
+    }
+    .h1HraverBIg{
+        font-size: 23px;
+    }
+    .liPlansImg{
+        width: 70px;
+        height: 70px;
+    }
+    .mailSmallDiv{
+        width: 100%;
+
+    }
+    .mailSmallDiv p {
+        font-size: 13px;
+    }
+    .mailDiv{
+        margin-top: 150px;
+    }
+}
+
+
+
